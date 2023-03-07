@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <div className="text-center">
-      <div className="text-white max-w-[850px] mx-auto mt-[150px]">
+      <div className="text-white max-w-[850px] mx-auto mt-[150px]  container ">
         <h1 className="text-[72px] font-bold mt-0">
           We buy{" "}
           <span
@@ -71,7 +71,7 @@ const Home = () => {
           Selling your company can be brutal…
         </h2>
       </div>
-      <div className="flex relative">
+      <div className="flex relative  container mx-auto">
         <div className="md:ml-[-170px]">
           <img className="w-[1174px] h-[786px]" src={bg} alt="" />
         </div>
@@ -99,12 +99,12 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className=" container mx-auto">
         <h2 className="text-[44px] font-bold text-white">
           And given founders dream exits...
         </h2>
       </div>
-      <div className="mt-[150px]">
+      <div className="mt-[150px] w-[100%]">
         <>
           <Swiper
             onSwiper={setSwiperRef}
@@ -325,7 +325,7 @@ const Home = () => {
           </Swiper>
         </>
       </div>
-      <div>
+      <div className=" container mx-auto">
         <h2 className="text-[44px] font-bold mt-[150px] text-white mb-12">
           Why sell to us?
         </h2>
@@ -448,7 +448,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" container mx-auto">
         <h2 className="text-[44px] font-bold mt-[150px] text-white">
           Our process is fast,
         </h2>
@@ -492,7 +492,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" mt-[100px]">
+      <div className=" mt-[100px]  container mx-auto">
         <h2 className="text-[44px] font-bold text-white">
           We like to buy businesses that have:
         </h2>
@@ -535,7 +535,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" mt-[100px]">
+      <div className=" mt-[100px]  container mx-auto">
         <h2 className="text-[44px] font-bold text-white">
           The companies we buy usually look like this:
         </h2>
@@ -584,7 +584,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[150px]">
+      <div className="mt-[150px]  container mx-auto">
         <h2 className="text-[44px] font-bold text-white">
           If you're not sure your business fits the bill, send it to us
         </h2>
@@ -596,7 +596,7 @@ const Home = () => {
           Get in touch
         </button>
       </div>
-      <div className="mx-20 bg-white flex justify-between  px-10 pt-20 rounded-xl mt-[200px] box-border">
+      <div className=" bg-white flex justify-between  container mx-auto  px-10 pt-20 rounded-xl mt-[200px] box-border">
         <div className="w-1/2 text-[#0e0066]">
           <h2 className="text-[30px] font-bold mb-6">
             Know someone we should talk to?
